@@ -1,0 +1,8 @@
+language: java
+
+jdk:
+  - openjdk8
+  
+ci:
+  - cd example
+  - mvn clean install
